@@ -56,4 +56,5 @@
   outline-style: dotted;
   outline-width: 3px;
   outline-color: rgba(256, 199, 2, 1);
+  transition-duration: 0.5s;
 }
