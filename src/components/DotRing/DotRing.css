@@ -4,8 +4,8 @@
   left: 0;
   width: 20px;
   height: 20px;
-  border: 2px solid rgba(256, 199, 2, 0.9);
-  border-radius: 100%;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23FFC702E6' stroke-width='3' stroke-dasharray='80%25%2c 20%25' stroke-dashoffset='86' stroke-linecap='butt'/%3e%3c/svg%3e");
+  border-radius: 100px;
   transform: translate(-50%, -50%);
   -webkit-transition-duration: 100ms;
   transition-duration: 100ms;
@@ -25,18 +25,18 @@
   background-color: rgba(256, 199, 2, 0.9);
   border-radius: 100%;
   transform: translate(-50%, -50%);
-  z-index: 999;
+  z-index: 998;
   pointer-events: none;
 }
 
 .ring.hovered {
   position: fixed;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='%23FFC702E6' stroke-width='3' stroke-dasharray='80%25%2c 20%25' stroke-dashoffset='86' stroke-linecap='butt'/%3e%3c/svg%3e");
+  border-radius: 100px;
   top: 0;
   left: 0;
   width: 18px;
   height: 18px;
-  border: 2px solid rgba(256, 199, 2, 0.95);
-  border-radius: 100%;
   transform: translate(-50%, -50%);
   -webkit-transition-duration: 100ms;
   transition-duration: 100ms;
@@ -48,10 +48,12 @@
 }
 
 .dot.hovered {
+  z-index: 998;
   width: 80px;
   height: 80px;
-  background-color: rgba(167, 133, 10, 1);
-  opacity: 60%;
-  border-style: dashed;
-  border-width: 1px;
+  background-color: white;
+  opacity: 55%;
+  outline-style: dotted;
+  outline-width: 3px;
+  outline-color: rgba(256, 199, 2, 1);
 }
