@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "./App.css";
-import DotRing from "./components/DotRing/DotRing";
+import DotRing from "./components/DotRing";
 import { MouseContext } from "./context/mouse-context";
 
 function App() {

@@ -20,13 +20,14 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background-color: rgba(256, 199, 2, 0.9);
   border-radius: 100%;
   transform: translate(-50%, -50%);
   z-index: 998;
   pointer-events: none;
+  transition-duration: 0.25s;
 }
 
 .ring.hovered {
@@ -56,5 +57,5 @@
   outline-style: dotted;
   outline-width: 3px;
   outline-color: rgba(256, 199, 2, 1);
-  transition-duration: 0.5s;
+  transition-duration: 0.25s;
 }

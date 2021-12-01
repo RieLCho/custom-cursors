@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./DotRing.css";
-import useMousePosition from "../../hooks/useMousePosition";
-import { MouseContext } from "../../context/mouse-context";
+import useMousePosition from "../hooks/useMousePosition";
+import { MouseContext } from "../context/mouse-context";
 
 const DotRing = () => {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
