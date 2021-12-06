@@ -1,0 +1,20 @@
+.sidenav {
+  background-color: white;
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}

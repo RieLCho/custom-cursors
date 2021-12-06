@@ -4,9 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import MouseContextProvider from "./context/mouse-context";
+import Header from "./components/Header";
+import LeftSideBar from "./components/LeftSideBar";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
+    <LeftSideBar />
     <MouseContextProvider>
       <App />
     </MouseContextProvider>

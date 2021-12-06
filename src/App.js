@@ -2,6 +2,7 @@ import { useContext } from "react";
 import "./App.css";
 import DotRing from "./components/DotRing";
 import { MouseContext } from "./context/mouse-context";
+import { Typography } from "@mui/material";
 
 function App() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
@@ -13,10 +14,13 @@ function App() {
           onMouseEnter={() => cursorChangeHandler("hovered")}
           onMouseLeave={() => cursorChangeHandler("")}
         >
-          <h1>Hover over me</h1>
+          <Typography
+            fontSize="3vh"
+            >
+            Hover over me
+          </Typography>
         </div>
       </div>
-      <div className="container" style={{ background: "peachpuff" }}></div>
     </div>
   );
 }
